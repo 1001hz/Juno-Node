@@ -15,7 +15,7 @@ let aboutModule = angular.module('about', [
     })
     .state('about.page1', {
       url: '/page1',
-      template: '<div><h1>Page1</h1><star-rating star-count="3"></star-rating></div>'
+      template: '<div><h1>Page1 {{$ctrl.name}}</h1><Profile parent-name="$ctrl.name"></Profile></div>'
     })
     .state('about.page2', {
       url: '/page2',

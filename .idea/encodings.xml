@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/client/app/app.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/app.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/app.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/album/album.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/album/album.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/alert/alert.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/alert/alert.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/alert/alert.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/alert/alert.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/alert/alert.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/alert/alert.spec.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/api/api.interceptor.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/api/api.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/api/api.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/authorisation/authorisation.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/authorisation/authorisation.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/common.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/common.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/example/example.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/example/example.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.service.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/loader/loader.spec.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/navbar/navbar.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/navbar/navbar.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/navbar/navbar.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/sass/base/_variables.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/textInput/textInput.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/textInput/textInput.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/common/textInput/textInput.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/about/about.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/about/about.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/about/about.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/about/about.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/about/about.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/components.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/homePage/homePage.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/homePage/homePage.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/homePage/homePage.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/login/login.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/login/login.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/login/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/loginPage/loginPage.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/loginPage/loginPage.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client/app/components/loginPage/loginPage.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generator/component/temp.component.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generator/component/temp.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/karma.conf.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webpack.config.js" charset="UTF-8" />
+  </component>
+</project>

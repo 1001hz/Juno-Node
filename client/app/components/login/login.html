@@ -1,0 +1,11 @@
+<div>
+  <h1>{{ $ctrl.name }}</h1>
+  <p>{{$ctrl.credentials.username}}</p>
+  <div>
+    <text-input placeholder="username" my-value="$ctrl.credentials.username" validation-error="$ctrl.validation.username"></text-input>
+  </div>
+  <div>
+    <text-input placeholder="password" my-value="$ctrl.credentials.password" validation-error="$ctrl.validation.password"></text-input>
+  </div>
+  <button data-ng-click="$ctrl.login()">Log in</button>
+</div>

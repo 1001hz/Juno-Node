@@ -4,7 +4,9 @@ import './about.scss';
 
 let aboutComponent = {
   restrict: 'E',
-  bindings: {},
+  bindings: {
+    user: '<'
+  },
   template,
   controller
 };

@@ -1,12 +1,20 @@
 import angular from 'angular';
-import Home from './home/home';
 import About from './about/about';
-import StarRating from './starRating/starRating';
+import Profile from './profile/profile';
+import LoginPage from './loginPage/loginPage';
+import HomePage from './homePage/homePage';
+import AdminPage from './adminPage/adminPage';
+import ForbiddenPage from './forbiddenPage/forbiddenPage';
+import Login from './login/login';
 
 let componentModule = angular.module('app.components', [
-  Home,
   About,
-  StarRating
+  Profile,
+  LoginPage,
+  HomePage,
+  AdminPage,
+  ForbiddenPage,
+  Login
 ])
 
 .name;
