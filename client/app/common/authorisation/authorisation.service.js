@@ -1,8 +1,9 @@
 class AuthorisationService {
 
-  constructor($rootScope, $state) {
+  constructor($rootScope, $state, $q) {
     this.$rootScope = $rootScope;
     this.$state = $state;
+    this.$q = $q;
     this.principal = null;
   }
 
@@ -50,21 +51,27 @@ class AuthorisationService {
     return self.principal;
   }
 
-  login() {
+  login(credentials) {
     var self = this;
-    return new Promise(
-      function(resolve, reject){
-        self.principal = {
-          name: 'John',
-          type: 'user'
-        };
-        resolve();
-        self.$state.go('app.home');
-      }
-    );
+    var defer = this.$q.defer();
+
+    //TODO: make server call
+    if(credentials.username === 'John' && credentials.password === 'pass'){
+      self.principal = {
+        name: 'John',
+        type: 'user'
+      };
+      defer.resolve();
+      self.$state.go('app.home');
+    }
+    else{
+      defer.reject("Wrong way");
+    }
+
+    return defer.promise;
 
   }
 
 }
-AuthorisationService.$inject = ['$rootScope', '$state'];
+AuthorisationService.$inject = ['$rootScope', '$state', '$q'];
 export default AuthorisationService;
